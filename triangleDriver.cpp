@@ -4,7 +4,7 @@
 
 extern "C" double area();
 
-int main(int argc, char* argv[])
+int main()
 {
     printf("Welcome to Amazing Triangles programmed Serafina Yu on February 15, 2022\n");
 
