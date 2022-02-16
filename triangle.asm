@@ -86,10 +86,11 @@ push rbx                                                    ;Backup rbx
 push qword -1  
 
 ;Output welcome message
+mov rax
 
 mov rax,3
 mov rdi, three_float_format
-mov rsi, rsp
+mov rsi, rspP
 call scanf
 movsd xmm10, [rsp]
 pop rax
