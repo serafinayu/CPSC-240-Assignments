@@ -7,7 +7,7 @@ Author information:
                                                                                                                         
 Program information:                                                                                                      
     Program name: Amazing Triangles                                                                                         
-    Programming languages: One modules in C++ and one in X86                                                                
+    Programming languages: One module in C++ and one in X86                                                                
     Date program began:     2022-Feb-4                                                                                      
     Date program completed: 2022-Feb                                                                                        
     Date comments upgraded:                                                                                                 
