@@ -37,6 +37,8 @@
 
 extern printf
 extern scanf
+extern fgets
+extern sin                      ; sin 
 
 global triangle
 
@@ -208,6 +210,20 @@ movsd xmm12, 0.5
 mulsd xmm2, sin(xmm2)
 
 
+;Calculate the sin of the angle
+push qword 0
+mov rax, 1
+mov xmm3, xmm2
+call sin
+pop rax
+
+push qword 0
+mov rax, 1
+mov rdi, output_area_float
+movsd xmm12, 0.5
+mulsd xmm0, xmm1
+mulsd xmm0, xmm12
+mulsd xmm0, xmm3
 
 
 
